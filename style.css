@@ -27,6 +27,12 @@ main{
     margin: auto;
 }
 
+main h1, h2{
+    background-image: linear-gradient(to right, var(--cor2), transparent, transparent);
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
 .artigo-main > p{
     padding: 5px;
 }
@@ -127,3 +133,10 @@ footer{
 img{
     width: 100%;
 }
+
+.bugdroid{
+    display: block;
+    margin: auto;
+    max-width: 300px;
+}
+
